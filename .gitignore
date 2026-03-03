@@ -1,0 +1,93 @@
+# ========================
+# Node.js
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.env
+.env.*       # For multiple environment configs like .env.dev
+!.env.test   # Keep test environment file in repo (without sensitive data)
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+*.log.*
+
+# ========================
+# Runtime data
+# ========================
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ========================
+# Coverage & test
+# ========================
+coverage/
+*.lcov
+
+# ========================
+# Build directories
+# ========================
+dist/
+build/
+tmp/
+temp/
+
+# ========================
+# System files
+# ========================
+.DS_Store         # macOS
+Thumbs.db         # Windows
+ehthumbs.db       # Windows
+Icon?
+Desktop.ini
+
+# ========================
+# Editor/IDE files
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# ========================
+# OS environment files
+# ========================
+*.swp
+*.bak
+*.tmp
+*.orig
+
+# ========================
+# Optional
+# ========================
+*.tgz                # npm pack files
+*.gz
+*.zip
+
+# ========================
+# Debug / crash dumps
+# ========================
+*.log
+*.stackdump
+
+# ========================
+# File types to ignore
+# ========================
+*.jpg
+*.jpeg
+*.png
+*.pdf
+
+# ========================
+# Folder
+# ========================
+uploads/
