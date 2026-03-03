@@ -1,0 +1,14 @@
+@import 'antd/dist/reset.css';
+@import 'tailwindcss';
+@tailwind utilities;
+
+body {
+    background: #f5f5f5;
+}
+
+/* Add your custom background colors here */
+@theme {
+      --color-customgreen: #1BA168; /* Define a single custom color */
+      --color-primary-500: #1a73e8; /* Define a custom color with a shade */
+      --color-primary-600: #186ac7;
+    }
